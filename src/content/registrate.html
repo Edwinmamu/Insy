@@ -1,7 +1,27 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="src/js/kitwind.config.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.11.1/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <title>REGISTRO</title>
+
     <style>
         .whatsapp-button {
             position: fixed;
@@ -25,63 +45,8 @@
         }
     </style>
 
-    <meta chartset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CONTACT</title>
-
-    <link rel="stylesheet" href="style.css">
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script src="src/js/kitwind.config.js"></script>
-
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.11.1/dist/full.min.css" rel="stylesheet" type="text/css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-        rel="stylesheet">
-
-    <style>
-        /* Estilos opcionales para el formulario */
-        form {
-            max-width: 400px;
-            margin: 0 auto;
-        }
-
-        label {
-            display: block;
-            margin-bottom: 5px;
-        }
-
-        input[type="text"],
-        input[type="email"],
-        textarea {
-            width: 100%;
-            padding: 8px;
-            margin-bottom: 10px;
-            border: 1px solid #ccc;
-            border-radius: 4px;
-            box-sizing: border-box;
-        }
-
-        input[type="submit"] {
-            background-color: #4CAF50;
-            color: white;
-            padding: 10px 20px;
-            border: none;
-            border-radius: 4px;
-            cursor: pointer;
-        }
-
-        input[type="submit"]:hover {
-            background-color: #45a049;
-        }
-    </style>
-
-
-
-
 </head>
+
 
 <body>
     <header>
@@ -108,14 +73,15 @@
                 <div id="menu"
                     class=" lg:flex hidden flex-grow justify-between absolute lg:relative top-full left-0 w-full py-1 px-8  z-10  lg:top-0  justify-items-cente ">
                     <div class="flex flex-col lg:flex-row md:flex-row mb-4 lg:mb-0 mt-4 mx-auto">
+
                         <a href="/index.html" class="font-bold uppercase pb-2 mb-2 px-3 py-4 text-gray-700 transition-colors duration-300 transform rounded-md dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700 md:mx-2 lg:mr-
                             4 ease-in-out mb-1 lg:mb-0 mt-15 lg:mt-0 mx-auto items-center ">Inicio</a>
                         <a href="/src/content/acercade.html" class="font-bold uppercase pb-2 mb-2 px-3 py-4 text-gray-700 transition-colors duration-300 transform rounded-md dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700 md:mx-2 lg:mr-
                             4 ease-in-out mb-1 lg:mb-0 mt-15 lg:mt-0 mx-auto items-center ">Sobre Nosotros</a>
 
-                        
-                        <a href="/src/content/registrate.html"
-                            class="font-bold uppercase pb-2 mb-2 px-2.5 py-4 text-gray-700 transition-colors duration-300 transform rounded-md dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700 md:mx-2 lg:mr-4 ease-in-out  mb-1 lg:mb-0 mt-15 lg:mt-0 mx-auto items-center">Regístrate</a>
+                        <a href="/src/content/contact.html"
+                            class="font-bold uppercase pb-2 mb-2 px-2.5 py-4 text-gray-700 transition-colors duration-300 transform rounded-md dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700 md:mx-2 lg:mr-4 ease-in-out  mb-1 lg:mb-0 mt-15 lg:mt-0 mx-auto items-center">Contáctanos</a>
+                      
                     </div>
                 </div>
 
@@ -171,107 +137,73 @@
             </script>
     </header>
 
-
-
-
     <main>
-        <div class="relative">
-            <img src="/src/IMG/logo-insy.jpg" class="absolute inset-0 object-cover w-full h-full m-0" alt="" />
-            <div class="relative bg-opacity-60 bg-deep-purple-accent-700">
-                <svg class="absolute inset-x-0 bottom-0 text-white" viewBox="0 0 1160 163">
-                    <path fill="currentColor"
-                        d="M-164 13L-104 39.7C-44 66 76 120 196 141C316 162 436 152 556 119.7C676 88 796 34 916 13C1036 -8 1156 2 1216 7.7L1276 13V162.5H1216C1156 162.5 1036 162.5 916 162.5C796 162.5 676 162.5 556 162.5C436 162.5 316 162.5 196 162.5C76 162.5 -44 162.5 -104 162.5H-164V13Z">
-                    </path>
-                </svg>
-                <div
-                    class="relative  py-16 mx-auto overflow-hidden sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-40">
-                    <div class="flex flex-col items-center justify-end xl:flex-row">
-                        <div class="w-full max-w-xl mb-12 xl:mb-0 xl:pr-16 xl:w-7/12">
-                            <h2
-                                class="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-blue-900 sm:text-4xl sm:leading-none items-center ">
-                                INSYHOGAR <br class="hidden md:block" />
-                                SOBRE LA EMPRESA:
-                            </h2>
-                            <p class="max-w-xl mb-4 text-base text-blue-600 md:text-lg font-bold">
-                                Ofrecemos servicios profesionales que están orientados a bservar los cambios y
-                                movimientos en el
-                                mundo de la construccion y el mobiliario, para así ofrecer a nuestros clientes las
-                                últimas tendencias.
-                            </p>
+        <section class="bg-white min-h-screen flex items-center justify-center">
 
-                        </div>
+            <!--contenedor del registro-->
+            <div class="bg-gray-100 flex rounded-2xl shadow-lg max-w-3xl">
 
-                    </div>
-                </div>
-            </div>
-        </div>
+                <!--formulario-->
+                <div class="md:w-1/2 px-16 bg-gray-200 rounded-tl-xl rounded-bl-xl">
+                    <h2 class="font-bold text-2xl text-[#0D45A2]">REGISTRATE</h2>
+                    <p class="text-sm mt-4 text-gray-500 font-bold">Si ya eres miembro, inicia sesión fácilmente</p>
 
-        <div class="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
-            <div class="mx-auto sm:text-center lg:max-w-2xl">
-                <div class="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
-
-                    <h2
-                        class="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
-                        <span class="relative inline-block">
-                            <svg viewBox="0 0 52 24" fill="currentColor"
-                                class="absolute top-0 left-0 z-0 hidden w-32 -mt-8 -ml-20 text-blue-gray-100 lg:w-32 lg:-ml-28 lg:-mt-10 sm:block">
-                                <defs>
-                                    <pattern id="5dc90b42-5ed4-45a6-8e63-2d78ca9d3d95" x="0" y="0" width=".135"
-                                        height=".30">
-                                        <circle cx="1" cy="1" r=".7"></circle>
-                                    </pattern>
-                                </defs>
-                                <rect fill="url(#5dc90b42-5ed4-45a6-8e63-2d78ca9d3d95)" width="52" height="24"></rect>
+                    <form action="" class="flex flex-col gap-4">
+                        <input class="bg-white p-2 mt-8 rounded-xl border" type="text" name="email" placeholder="Email">
+                        <div class="relative">
+                            <input class="bg-white p-2 rounded-xl border w-full" type="password" name="password"
+                                placeholder="Contraseña">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="gray"
+                                class="bi bi-eye absolute top-3 right-3 -translate-y" viewBox="0 0 16 16">
+                                <path
+                                    d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8M1.173 8a13 13 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5s3.879 1.168 5.168 2.457A13 13 0 0 1 14.828 8q-.086.13-.195.288c-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5s-3.879-1.168-5.168-2.457A13 13 0 0 1 1.172 8z" />
+                                <path
+                                    d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5M4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0" />
                             </svg>
-                            <span class="relative text-blue-800 p-10">CONTACTANOS</span>
-                        </span>
-
-                    </h2>
-
-                    <form action="mailto:tucorreo@dominio.com" method="post" enctype="text/plain">
-
-                        <span class="relative text-blue-800 relative inline-block  text-3xl"></span>
-                        <label for="nombre">Nombre:</label>
-                        <input type="text" id="nombre" name="nombre" required>
-
-                        <label for="email">Correo Electrónico:</label>
-                        <input type="email" id="email" name="email" required>
-
-                        <label for="mensaje">Mensaje:</label>
-                        <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
-
-                        <input type="submit" value="Enviar">
+                        </div>
+                        <button
+                            class="bg-[#0D45A2] rounded-xl text-white py-2 hover:scale-110 duration-700">REGISTRATE</button>
                     </form>
 
-                    <p class="text-base text-gray-700 md:text-lg p-10">
-                        ¿Necesitas ayuda con una reparación en tu hogar? ¡Estamos aquí para ayudarte! No dudes en
-                        ponerte en contacto con nosotros para programar una cita o para obtener más información sobre
-                        nuestros servicios.
-                    </p>
-                </div>
-                <div class="">
-                    <span class="relative text-blue-800 p-10 font-bold text-3xl">VISITANOS</span>
-                    <div id="map-container">
-                        <!-- Mapa incrustado -->
-                        <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.433343580398!2d-75.54779642564161!3d6.3378752252939385!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e442f9923096f31%3A0x8c09b4696cee24de!2sTierragro%20Bello!5e0!3m2!1ses!2sco!4v1717193959667!5m2!1ses!2sco"
-                            width="800" height="500" style="border:0;" allowfullscreen="" loading="lazy"
-                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <div class="mt-10 grid grid-cols-3 items-center text-gray-500">
+                        <hr class="border-gray-900">
+                        <p class="text-center text-sm">OR</p>
+                        <hr class="border-gray-900">
                     </div>
+
+                    <button
+                        class="bg-white border py-1 w-full rounded-xl mt-3 flex justify-center items-center hover:scale-110 duration-700">
+                        <svg class="mr-3" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 18 18">
+                            <path fill="#4285f4"
+                                d="M17.64 9.2c0-.637-.057-1.251-.164-1.84H9v3.481h4.844c-.209 1.125-.843 2.078-1.796 2.717v2.258h2.908c1.702-1.567 2.684-3.874 2.684-6.615z" />
+                            <path fill="#34a853"
+                                d="M9.003 18c2.43 0 4.467-.806 5.956-2.18l-2.909-2.26c-.806.54-1.836.86-3.047.86-2.344 0-4.328-1.584-5.036-3.711H.96v2.332C2.44 15.983 5.485 18 9.003 18z" />
+                            <path fill="#fbbc05"
+                                d="M3.964 10.712c-.18-.54-.282-1.117-.282-1.71 0-.593.102-1.17.282-1.71V4.96H.957C.347 6.175 0 7.55 0 9.002c0 1.452.348 2.827.957 4.042l3.007-2.332z" />
+                            <path fill="#ea4335"
+                                d="M9.003 3.58c1.321 0 2.508.454 3.44 1.345l2.582-2.58C13.464.891 11.428 0 9.002 0 5.485 0 2.44 2.017.96 4.958L3.967 7.29c.708-2.127 2.692-3.71 5.036-3.71z" />
+                        </svg>
+                        <span class="bg-gray flex sm:w-1/2">REGISTRATE CON GOOGLE</span>
+                    </button>
+
+
+                    <p class="mt-2 text-xs border-b py-4 border-gray-400">Introduce tu contraseña?</p>
+
+                    <div class="mt-2 text-xs flex justify-between items-center">
+
+                        <p>Si no tienes cuenta..</p>
+                        <button
+                            class="py-2 px-4 bg-blue-200 border rounded-xl hover:scale-110 duration-700">REGISTRATE</button>
+                    </div>
+
                 </div>
-                <p class="max-w-xl mb-4 text-base text-gray-700 sm:mx-auto p-9">
-                    En <span class="text-blue-500 font-bold">INSYHOGAR,</span> estamos comprometidos a hacer que tu vida
-                    sea más fácil proporcionándote soluciones confiables y efectivas para tus necesidades de reparación
-                    en el hogar. Esperamos tener la oportunidad de servirte pronto.
-                </p>
 
-
+                <!--imagen-->
+                <div class="md:block hidden w-1/2 bg-gray-200 rounded-br-xl">
+                    <img class=" rounded-2xl" src="/src/IMG/logo-insy.jpg" alt="">
+                </div>
             </div>
-        </div>
-
-
-
-
+        </section>
     </main>
 
     <footer class="footer p-10 bg-base-300 ">
@@ -361,6 +293,8 @@
         </nav>
         <font></font>
     </footer>
+
 </body>
+
 
 </html>
